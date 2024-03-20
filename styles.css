@@ -109,18 +109,18 @@ footer {
 .bg-image {
     background-size: cover;
     background-position: center; 
-    background-image: url('/images/zen-studio-1.jpg');
+    background-image: url('images/zen-studio-1.jpg');
 }
 
-.bg-stone { background-image: url('/images/stone.png'); }
+.bg-stone { background-image: url('images/stone.png'); }
 
 .bg-leaves { 
-    background-image: url('/images/zen-studio-1.jpg');
+    background-image: url('images/zen-studio-1.jpg');
     background-position: 50% 31%;
 }
 
-.bg-venue { background-image: url('/images/zen-studio-3.jpg'); }
-.bg-map { background-image: url('/images/light-colored-map.png'); } 
+.bg-venue { background-image: url('images/zen-studio-3.jpg'); }
+.bg-map { background-image: url('images/light-colored-map.png'); } 
 
 .shape-teardrop {
     border-radius: 20rem;
@@ -146,7 +146,7 @@ footer {
     
     .sm-block { display: block; }
 
-    .bg-leaves { background-image: url('/images/leaves-light.png'); }
+    .bg-leaves { background-image: url('images/leaves-light.png'); }
 
     .text-center-sm { text-align: center; }
 }	
