@@ -8,50 +8,81 @@
 		<!-- Gridlex -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
     
-		<!-- Add Google Fonts Here  -->
+		<!-- Google Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet"> 
-    
+        
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        <!-- AOS -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 		<!-- Custom stylesheet -->
 		<link rel="stylesheet" href="styles.css"> 
     </head>
 
     <body>
     	<!-- Header Section -->
-		<section class="padded bg-image tall-90 grid center bg-stone">
-			<div class="col-12-middle">
-				<h1 class="text-xxl text-featured">zen.studio</h1>
+		<section class="padded  tall-90 grid center  header">
+			<div class="col-12-bottom">
+                <video autoplay loop muted plays-inline class="back-video">
+                    <source src="images/yoga-studio.mp4" type="video/mp4">
+                  </video>
+				<h1 class="text-xxl text-featured" data-aos="fade-up-left">zen.studio</h1>
+                <div class="socials header-socials">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                </div>
+            </div>
+            <div class="grid down-sect-arrow">
+                <a href ="#intro" class="down-arrow"><svg xmlns="http://www.w3.org/2000/svg" height="75px" viewBox="0 -960 960 960" width="75px" fill="#FFFFFF"><path d="M480-344 240-584l47.33-47.33L480-438.67l192.67-192.66L720-584 480-344Z"/></svg></a>
             </div>
         </section> 
 
         <!-- Intro Section -->
-        <section class="grid-center padded bg-light">
+        <section class="grid-center padded bg-light" id="intro">
             <div class="col-4_md-6_xs-12 padded-2">
                 <img src="images/zen-studio-2.jpg" class="shape-teardrop">
             </div>
             <div class="col-7_md-6_xs-12-middle padded-2">
-                <h2 class="text-featured">Welcome home.</h2> 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas necessitatibus asperiores dolorum nemo ratione incidunt. Rerum recusandae saepe soluta, cumque eos consequuntur non repellendus a porro quisquam voluptate placeat odio?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nisi, culpa rem alias, exercitationem fuga saepe vero excepturi eaque consequatur ut ex necessitatibus. Totam obcaecati aliquid quaerat deleniti labore nisi.</p>
-                <a href="#" class="button">Book a Session</a>
+                <h2 class="text-featured" data-aos="fade-left">Reach your potential.</h2> 
+                <div data-aos="fade-up">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas necessitatibus asperiores dolorum nemo ratione incidunt. Rerum recusandae saepe soluta, cumque eos consequuntur non repellendus a porro quisquam voluptate placeat odio?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nisi, culpa rem alias, exercitationem fuga saepe vero excepturi eaque consequatur ut ex necessitatibus. Totam obcaecati aliquid quaerat deleniti labore nisi.</p>
+                <a href="#" class="button book-sesssion-btn">Book a Session</a>
+                </div>
             </div>
         </section>
 
         <!-- Banner Section -->
-        <section class="padded bg-image tall-50 grid right bg-leaves">
+        <section class="padded bg-image tall-50 grid center bg-stone">
             <div class="col-12-middle text-center-sm">
-                <h3>Don't forget to breathe.</h3>
+                <h3 class="text-featured text-xl" data-aos="fade-left">Why Choose Yoga?</h3>
+            </div>
+            <div class="col-4_md-12 card">
+                <img src="images/stretch.png" class="icon" >
+                <p>Improves Flexibility & Strength</p>
+            </div>
+            <div class="col-4_md-12 card">
+                <img src="images/stress.png" class="icon">
+                <p>Reduces Stress and Anxiety</p>
+            </div>
+            <div class="col-4_md-12 card">
+                <img src="images/health.png" class="icon">
+                <p>Boosts Cardiovascular and Respiratory Health</p>
             </div>
         </section> 
 
         <!-- Studio Section -->
-        <section class="padded bg-light grid-center">
+        <section class="padded grid-center">
             <div class="col-5_md-6_sm-12 padded-2">
-                <h2 class="text-featured text-lg">Our Studio.</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti nobis incidunt veritatis quia et. Veritatis, officia. Iure temporibus voluptas laudantium pariatur inventore perferendis? Quas numquam obcaecati qui labore atque voluptates.</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque laborum reprehenderit quo illo ullam dolorum ab assumenda totam, atque perferendis, maiores exercitationem laudantium quae nesciunt autem molestias, debitis error natus?</p>
-                <ul>
+                <h2 class="text-featured text-lg" data-aos="fade-right">Our Studio.</h2>
+                <p data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti nobis incidunt veritatis quia et. Veritatis, officia. Iure temporibus voluptas laudantium pariatur inventore perferendis? Quas numquam obcaecati qui labore atque voluptates.</p>
+                <p data-aos="fade-up">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque laborum reprehenderit quo illo ullam dolorum ab assumenda totam, atque perferendis, maiores exercitationem laudantium quae nesciunt autem molestias, debitis error natus?</p>
+                <ul data-aos="fade-up">
                     <li>Lorem ipsum dolor sit amet</li>
                     <li>Veritatis, officia</li>
                     <li>Iure temporibus voluptas</li>
@@ -63,23 +94,101 @@
             </div>
         </section>
 
-        <!-- Contact Us Section -->
+        <!-- Our Instuctors section -->
+
+        <section class="grid padded-2 bg-light instructor-ctr">
+            <div class="col-12 center padded">
+                <h2 class="text-featured text-lg" data-aos="fade-left">Our Instructors.</h2>
+            </div>
+            <div class="col-3_md-6_sm-12 instructor-bio">
+                <img class="profile-pic" src="https://images.unsplash.com/photo-1689697247482-c8cb53d8f670?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                <h4 class="bio-name">Alexandria George</h4>
+                <div class="bio-content">
+                    <div class="socials">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+                    <p class="bio-detail">Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+            </div>
+            <div class="col-3_md-6_sm-12 instructor-bio">
+                <img class="profile-pic" src="https://images.unsplash.com/photo-1554244933-d876deb6b2ff?q=80&w=1760&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                <h4 class="bio-name">Jodi Johnstone</h4>
+                <div class="bio-content">
+                    <div class="socials">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+                    <p class="bio-detail">Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+            </div>
+            <div class="col-3_md-6_sm-12 instructor-bio">
+                <img class="profile-pic" src="https://images.unsplash.com/photo-1542596594-649edbc13630?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                <h4 class="bio-name">Gina Davis</h4>
+                <div class="bio-content">
+                    <div class="socials">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+                    <p class="bio-detail">Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+            </div>
+            <div class="col-3_md-6_sm-12 instructor-bio">
+                <img class="profile-pic" src="https://images.unsplash.com/photo-1531714680149-1bde6d4d4c5c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjYwfHx5b2dhJTIwcGVvcGxlfGVufDB8fDB8fHww" alt="">
+                <h4 class="bio-name">Raj Napoor</h4>
+                <div class="bio-content">
+                    <div class="socials">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+                    <p class="bio-detail">Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+            </div>
+        </section>
+
+       <!-- Contact Us Section -->
         <section class="grid-center padded text-featured">
             <div class="col-12 padded-2 center">
-                <h2 class="text-xl">Find us.<span class="sm-block">Contact us.</span></h2>    
+                <h2 class="text-xl" data-aos="fade-right">
+                    Find us.<span class="sm-block">Contact us.</span>
+                </h2>
             </div>
-            <div class="col-4_md-5_xs-12 padded-2 text-lato">
+
+            <!-- Contact Details and Form Wrapper -->
+            <div class="col-6_md-12 padded-2 text-lato" data-aos="fade-up">
                 <p class="margin-b-0"><strong>Zen Studio.</strong></p>
                 <p>222 John Smith Ave, <br> Victoria, Australia</p>
-                <p><em>Take the second left after the strange looking sign.</em> </p>
-                <p class="margin-b-0 text-bold"><a href="mailto:zenstudio@gmail.com">Email: zenstudio@gmail.com</a></p>
-                <p class="text-bold"><a href="tel:045555555">Phone: 04 555 5555</a></p>
+                <p class="margin-b-0 text-bold">
+                    <a href="mailto:zenstudio@gmail.com">Email: zenstudio@gmail.com</a>
+                </p>
+                <p class="text-bold">
+                    <a href="tel:045555555">Phone: 04 555 5555</a>
+                </p>
+
+                <!-- Contact Form -->
+                <form class="contact-form" action="#" method="post">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
             </div>
-            <div class="col-6_md-7_xs-12 bg-image bg-map tall-50"> </div>
+
+            <!-- Map Section -->
+            <div class="col-6_md-12 bg-image bg-map tall-50" data-aos="fade-up"></div>
         </section>
 
         <footer class="center">
             <p>Copyright 2024</p>
         </footer>
+
+        <!-- Custom JS -->
+         <script src="script.js" defer></script>
+        <!-- AOS -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     </body>
 </html>
